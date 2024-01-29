@@ -17,7 +17,7 @@ def get(array, index, default=None):
     return default
 
 
-def my_slice(coll, start=None, end=None):
+def my_slice(coll: object, start: object = None, end: object = None) -> object:
     """
     Возвращает новый массив, содержащий копию части исходного массива.
     :param coll: исходный список.
